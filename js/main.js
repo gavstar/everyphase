@@ -6,6 +6,7 @@
 
     if($(window).width() > 992){
         $('.nav-alt').css({'border-top-left-radius':'20px', 'border-top-right-radius':'20px'})
+        $('.nav-bar .navbar').css({'background-color':'red !important'})   
     }
     
     
