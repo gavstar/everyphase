@@ -35,10 +35,10 @@ a:focus {
     text-decoration: none;
 }
 #carousel {
-    background: yellow;
-box-shadow: -18px -36px 109px 82px rgba(0,0,0,0.59) inset;
--webkit-box-shadow: -18px -36px 109px 82px rgba(0,0,0,0.59) inset;
--moz-box-shadow: -18px -36px 109px 82px rgba(0,0,0,0.59) inset;
+    background: #000;
+box-shadow: -18px -36px 109px 82px rgba(0,0,0,0.69) inset;
+-webkit-box-shadow: -18px -36px 109px 82px rgba(0,0,0,0.69) inset;
+-moz-box-shadow: -18px -36px 109px 82px rgba(0,0,0,0.69) inset;
 }
 #carousel img {
     opacity: 0.63;
