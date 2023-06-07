@@ -118,6 +118,17 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-family: Anton;
     text-transform: uppercase;
     font-style:italic;
+    text-shadow:
+        0px 1px 0px #000,
+        0px 2px 0px #000,
+        0px 2px 3px #000;
+}
+.nav-bar h1 {
+    text-shadow:
+        0px 1px 0px #000,
+        0px 2px 0px #000,
+        0px 2px 3px #000;
+    }
 }
 
 .top-bar .logo img {
@@ -262,7 +273,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
     .nav-bar a.nav-link {
         padding: 8px 15px;
-        font-size: 21px;
+        font-size: 17px;
         text-transform: uppercase;
     }
 
