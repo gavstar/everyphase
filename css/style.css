@@ -2,10 +2,15 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #666666;
+/*    color: #666666;*/
     background: #dddddd;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1,
