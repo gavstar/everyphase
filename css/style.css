@@ -34,6 +34,12 @@ a:focus {
     outline: none;
     text-decoration: none;
 }
+#carousel {
+    background: yellow;
+}
+#carousel img {
+    opacity: 0.63;
+}
 .navbar-brand{
     font-family: Anton;
     color: #333 !important;
