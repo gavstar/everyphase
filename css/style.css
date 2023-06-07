@@ -50,7 +50,9 @@ box-shadow: -18px -36px 109px 82px rgba(0,0,0,0.59) inset;
 .btn:focus {
     box-shadow: none;
 }
-
+.nav-alt h1 {
+    font-style:italic;
+}
 .wrapper {
     position: relative;
     width: 100%;
