@@ -23,19 +23,15 @@
         if ($(this).scrollTop() > 90) {
             $('.nav-bar').addClass('nav-sticky');
             $('.carousel, .page-header').css("margin-top", "73px");
+            if ($(window).width() > 992) {
+                $('.navbar-brand').show();
+            }
         } else {
             $('.nav-bar').removeClass('nav-sticky');
             $('.carousel, .page-header').css("margin-top", "0");
-        }
-
-        if ($(window).width() > 992) {
-            if ($(this).scrollTop() > 1) {
-                $('.navbar-brand').show();
-            } else {
+            if ($(window).width() > 992) {
                 $('.navbar-brand').hide();
             }
-        } else {
-
         }
     });
     
