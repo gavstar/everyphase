@@ -201,7 +201,8 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 .nav-bar .navbar {
     height: 100%;
-    background: #173d05 !important;
+    background: rgb(12,31,2);
+    background: linear-gradient(288deg, rgba(12,31,2,1) 0%, rgba(23,61,5,1) 30%, rgba(23,61,5,1) 100%);
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -209,10 +210,13 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #ffffff;
+    color: #fff;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffda81;
+    transition: none;
+}
 .navbar-dark .navbar-nav .nav-link.active {
     color: #ffb401;
     transition: none;
