@@ -18,13 +18,6 @@
         return false;
     });
 
-    // Show Top Bar Only On Desktop
-    if ($(window).width() > 992) {
-        $('.top-bar').show();
-    } else {
-        $('.top-bar').hide();
-    }
-
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 90) {
@@ -36,8 +29,7 @@
         }
 
         if ($(window).width() > 992) {
-            $('.top-bar').show();
-            if ($(this).scrollTop() > 0) {
+            if ($(this).scrollTop() > 1) {
                 $('.navbar-brand').show();
             } else {
                 $('.navbar-brand').hide();
