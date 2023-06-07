@@ -25,12 +25,14 @@
             $('.carousel, .page-header').css("margin-top", "73px");
             if ($(window).width() > 992) {
                 $('.navbar-brand').show();
+                $('.nav-alt').css({'border-top-left-radius':'0px', 'border-top-right-radius':'0px'})
             }
         } else {
             $('.nav-bar').removeClass('nav-sticky');
             $('.carousel, .page-header').css("margin-top", "0");
             if ($(window).width() > 992) {
                 $('.navbar-brand').hide();
+                $('.nav-alt').css({'border-top-left-radius':'20px', 'border-top-right-radius':'20px'})
             }
         }
     });

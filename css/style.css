@@ -36,6 +36,9 @@ a:focus {
 }
 #carousel {
     background: yellow;
+box-shadow: -18px -36px 109px 82px rgba(0,0,0,0.59) inset;
+-webkit-box-shadow: -18px -36px 109px 82px rgba(0,0,0,0.59) inset;
+-moz-box-shadow: -18px -36px 109px 82px rgba(0,0,0,0.59) inset;
 }
 #carousel img {
     opacity: 0.63;
