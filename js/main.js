@@ -17,8 +17,14 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
-    
-    
+
+    // Show Top Bar Only On Desktop
+    if ($(window).width() > 992) {
+        $('.top-bar').show();
+    } else {
+        $('.top-bar').hide();
+    }
+
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 90) {
@@ -28,8 +34,17 @@
             $('.nav-bar').removeClass('nav-sticky');
             $('.carousel, .page-header').css("margin-top", "0");
         }
+
+        if ($(window).width() > 992) {
+            if ($(this).scrollTop() > 0) {
+                $('.navbar-brand').show();
+            } else {
+                $('.navbar-brand').hide();
+            }
+        } else {
+
+        }
     });
-    
     
     // Dropdown on mouse hover
     $(document).ready(function () {
