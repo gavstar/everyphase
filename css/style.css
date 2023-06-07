@@ -96,8 +96,10 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 .top-bar {
     position: relative;
     height: 90px;
-    background: #143604;
+    background: #143604 url("../img/logo.png") fixed;;
     display: none;
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 .top-bar .logo {
