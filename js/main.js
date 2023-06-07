@@ -36,6 +36,7 @@
         }
 
         if ($(window).width() > 992) {
+            $('.top-bar').show();
             if ($(this).scrollTop() > 0) {
                 $('.navbar-brand').show();
             } else {
